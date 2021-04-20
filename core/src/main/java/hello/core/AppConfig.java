@@ -17,20 +17,20 @@ public class AppConfig {
     @Bean
     public MemberService memberService(){
         System.out.println("call AppConfig.memberService");
-        return new MemberServiceImpl(MemberRepository());
+        return new MemberServiceImpl(memberRepository());
     }
     @Bean
-    public MemberRepository MemberRepository() {
+    public MemberRepository memberRepository() {
         System.out.println("call AppConfig.MemberRepository");
         return new MemoryMemberRepository();
     }
     @Bean
     public OrderService orderService(){
         System.out.println("call AppConfig.orderService");
-        return new OrderServiceImpl(MemberRepository(), DiscountPolicy());
+        return new OrderServiceImpl(memberRepository(), discountPolicy());
     }
     @Bean
-    public DiscountPolicy DiscountPolicy() {
+    public DiscountPolicy discountPolicy() {
         return new RateDiscountPolicy();
     }
 }
