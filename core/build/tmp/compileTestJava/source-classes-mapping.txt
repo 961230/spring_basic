@@ -50,3 +50,8 @@ hello/core/scan/AutoAppConfigTest.java
  hello.core.scan.AutoAppConfigTest
 hello/core/scan/filter/BeanA.java
  hello.core.scan.filter.BeanA
+hello/core/lifecycle/NetworkClient.java
+ hello.core.lifecycle.NetworkClient
+hello/core/lifecycle/BeanLifeCycleTest.java
+ hello.core.lifecycle.BeanLifeCycleTest
+ hello.core.lifecycle.BeanLifeCycleTest$LifeCycleConfig
