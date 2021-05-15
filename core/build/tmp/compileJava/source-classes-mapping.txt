@@ -1,9 +1,13 @@
+hello/core/web/LogDemoService.java
+ hello.core.web.LogDemoService
 hello/core/member/MemberRepository.java
  hello.core.member.MemberRepository
 hello/core/member/Member.java
  hello.core.member.Member
 hello/core/discount/RateDiscountPolicy.java
  hello.core.discount.RateDiscountPolicy
+hello/core/common/MyLogger.java
+ hello.core.common.MyLogger
 hello/core/CoreApplication.java
  hello.core.CoreApplication
 hello/core/member/MemberService.java
@@ -34,3 +38,5 @@ hello/core/discount/DiscountPolicy.java
  hello.core.discount.DiscountPolicy
 hello/core/member/Grade.java
  hello.core.member.Grade
+hello/core/web/LogDemoController.java
+ hello.core.web.LogDemoController
